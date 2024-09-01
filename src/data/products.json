@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "هلا",
+    "number": 456,
+    "price": 29.99,
+    "pathways": {
+      "grade2": ["تكلونجيا الاعلامية", "علوم", "اقتصاد وتصرف", "ادب"]
+    },
+    "image": "path/to/imageB.jpg",
+    "createdAt": 1692950400,
+    "ltr": "false"
+  },
+  {
+    "id": 2,
+    "name": "Item C",
+    "number": 789,
+    "price": 39.99,
+    "pathways": {
+      "grade1": []
+    },
+    "image": "path/to/imageC.jpg",
+    "createdAt": 1693036800,
+    "ltr": "true"
+  },
+  {
+    "id": 3,
+    "name": "عيون الادب - الجزء الاول",
+    "number": 201202,
+    "price": 4.5,
+    "pathways": {
+      "grade2": ["تكلونجيا الاعلامية", "علوم", "اقتصاد وتصرف", "ادب"]
+    },
+    "image": "https://synotec.tn/wp-content/uploads/2018/10/966665222100325-001.jpg",
+    "createdAt": 1724752734,
+    "ltr": "false"
+  }
+]

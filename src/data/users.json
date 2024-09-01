@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "username": "johndoe",
+    "name": "John Doe",
+    "email": "user1@example.com",
+    "profile_picture": "https://th.bing.com/th/id/OIP.9_MptOLxjJEGSGukPt9FWQHaHa?rs=1&pid=ImgDetMain",
+    "data_created": 1692370920,
+    "password": "securePassword123"
+  },
+  {
+    "id": 2,
+    "username": "janesmith",
+    "name": "Jane Smith",
+    "email": "user2@example.com",
+    "profile_picture": "https://th.bing.com/th/id/OIP.9_MptOLxjJEGSGukPt9FWQHaHa?rs=1&pid=ImgDetMain",
+    "data_created": 1692284520,
+    "password": "anotherSecurePassword456"
+  }
+]

@@ -1,0 +1,30 @@
+{
+  "grades": {
+    "first_year": "أولي ثانوي",
+    "second_year": "ثانية ثانوي",
+    "third_year": "ثالثة ثانوي",
+    "fourth_year": "رابعة ثانوي"
+  },
+  "welcome_message": "مرحبًا بكم في PortEdu!",
+  "home": "الرئيسية",
+  "about": "من نحن",
+  "services": "خدماتنا",
+  "contact": "اتصل بنا",
+  "footer_message": "© 2024 PortEdu. جميع الحقوق محفوظة.",
+  "privacy_policy": "سياسة الخصوصية",
+  "terms_of_service": "شروط الخدمة",
+  "cooldown_message": "يمكنك تقديم فكرة مرة واحدة فقط كل 24 ساعة.",
+  "idea_submitted_title": "فكرة جديدة تم تقديمها",
+  "idea_label": "الفكرة",
+  "timestamp_label": "التوقيت",
+  "idea_submitted_success": "تم تقديم الفكرة بنجاح!",
+  "idea_submission_error": "حدث خطأ أثناء تقديم فكرتك. يرجى المحاولة مرة أخرى.",
+  "submit_idea_title": "قدم فكرتك",
+  "your_idea": "فكرتك",
+  "close": "إغلاق",
+  "submit": "تقديم",
+  "search_placeholder": "بحث...",
+  "number_label": "الرقم",
+  "price_label": "السعر",
+  "no_results": "لا توجد نتائج"
+}

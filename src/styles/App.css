@@ -1,0 +1,106 @@
+:root {
+  --background-color-light: #ffffff;
+  --text-color-light: #000000;
+  --link-color-light: #1d4ed8;
+  --link-hover-color-light: #2563eb;
+  --card-background-light: #f3f4f6;
+  --button-color-light: #ffffff;
+
+  --background-color-dark: #242424;
+  --text-color-dark: #e5e7eb;
+  --link-color-dark: #3b82f6;
+  --link-hover-color-dark: #60a5fa;
+  --card-background-dark: #374151;
+  --button-color-dark: #1f2937;
+}
+
+[data-mode="light"] {
+  --background-color: var(--background-color-light);
+  --text-color: var(--text-color-light);
+  --link-color: var(--link-color-light);
+  --link-hover-color: var(--link-hover-color-light);
+  --card-background-color: var(--card-background-light);
+  --button-color: var(--button-color-light);
+}
+
+[data-mode="dark"] {
+  --background-color: var(--background-color-dark);
+  --text-color: var(--text-color-dark);
+  --link-color: var(--link-color-dark);
+  --link-hover-color: var(--link-hover-color-dark);
+  --card-background-color: var(--card-background-dark);
+  --button-color: var(--button-color-dark);
+}
+
+body {
+  display: flex;
+  place-items: center;
+  margin: 0;
+  background-color: var(--background-color);
+  min-width: 320px;
+  min-height: 100vh;
+  color: var(--text-color);
+  font-weight: 400;
+  line-height: 1.5;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
+}
+
+button {
+  transition:
+    background-color 0.3s ease,
+    transform 0.2s ease,
+    box-shadow 0.3s ease;
+  cursor: pointer;
+  border: 1px solid transparent;
+  border-radius: 0.5rem;
+  background-color: var(--button-color);
+  padding: 0.5rem 1rem;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+button:hover,
+button:focus {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: var(
+    --link-hover-color-light
+  ); /* Light mode example, change for dark mode */
+}
+
+button:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+@keyframes buttonAnimation {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+button {
+  animation: buttonAnimation 0.6s ease-in-out;
+}
+
+a {
+  transition: color 0.3s ease;
+  color: var(--link-color);
+}
+
+a:hover {
+  color: var(--link-hover-color);
+}

@@ -1,0 +1,30 @@
+{
+  "grades": {
+    "first_year": "First Year",
+    "second_year": "Second Year",
+    "third_year": "Third Year",
+    "fourth_year": "Fourth Year"
+  },
+  "welcome_message": "Welcome to PortEdu!",
+  "home": "Home",
+  "about": "About Us",
+  "services": "Our Services",
+  "contact": "Contact Us",
+  "footer_message": "© 2024 PortEdu. All rights reserved.",
+  "privacy_policy": "Privacy Policy",
+  "terms_of_service": "Terms of Service",
+  "cooldown_message": "You can only submit an idea once every 24 hours.",
+  "idea_submitted_title": "New Idea Submitted",
+  "idea_label": "Idea",
+  "timestamp_label": "Timestamp",
+  "idea_submitted_success": "Idea submitted successfully!",
+  "idea_submission_error": "There was an error submitting your idea. Please try again.",
+  "submit_idea_title": "Submit Your Idea",
+  "your_idea": "Your Idea",
+  "close": "Close",
+  "submit": "Submit",
+  "search_placeholder": "Search...",
+  "number_label": "Number",
+  "price_label": "Price",
+  "no_results": "No results found"
+}
