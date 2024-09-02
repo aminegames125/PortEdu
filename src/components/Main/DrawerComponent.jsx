@@ -29,7 +29,7 @@ const DrawerComponent = () => {
   };
 
   const handlePathwayClick = (grade) => {
-    navigate(`/products/${grade}`);
+    navigate(`/PortEdu/products/${grade}`);
     toggleDrawer();
   };
 
