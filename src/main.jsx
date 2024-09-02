@@ -13,7 +13,7 @@ import "./styles/index.css";
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/PortEdu",
     element: <App />, 
   },
   {
