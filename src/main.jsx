@@ -17,19 +17,19 @@ const router = createBrowserRouter([
     element: <App />, 
   },
   {
-    path: "/login",
+    path: "/PortEdu/login",
     element: <Login />, 
   },
   {
-    path: "/product/:number",
+    path: "/PortEdu/product/:number",
     element: <ProductInfo />, 
   },
   {
-    path: "/products/:grade",
+    path: "/PortEdu/products/:grade",
     element: <ProductsByGrade />, 
   },
   {
-    path: "*",
+    path: "/PortEdu/*",
     element: <NotFound />, 
   },
 ]);
