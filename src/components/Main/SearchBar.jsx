@@ -90,7 +90,7 @@ const ModernSearchBar = () => {
   };
 
   const handleClick = (number) => {
-    navigate(`/product/${number}`);
+    navigate(`/PortEdu/product/${number}`);
   };
 
   return (
